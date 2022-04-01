@@ -1,20 +1,20 @@
 <!--
  * @Author: your name
  * @Date: 2022-03-25 16:13:42
- * @LastEditTime: 2022-03-25 16:27:43
- * @LastEditors: your name
+ * @LastEditTime: 2022-04-01 17:25:33
+ * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \miniQBlog\README.md
 -->
 ## 【小Q同学】全栈开发
 
-[<img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-7k-42b983.svg">](https://juejin.im/user/5cf288385188254abb110e3b)
-[<img src="https://img.shields.io/badge/思否-2.5k-42b983.svg">](https://segmentfault.com/u/na_5a545653c24d9)
-[<img src="https://img.shields.io/badge/慕课-认证作者-42b983.svg">](https://segmentfault.com/u/na_5a545653c24d9)
+[<img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-7k-42b983.svg">](https://juejin.cn/user/814069913494638)
+[<img src="https://img.shields.io/badge/思否-2.5k-42b983.svg">](https://segmentfault.com/u/quixn)
 
-> 这里是 `koala` 的博客, 最近在做一个node高级进阶的学习路线,
+
+> 这里是 `Quixn` 的博客, 最近在做一个node高级进阶的学习路线,
  
-[文章在线阅读体验更好，点这里](http://www.inode.club) 
+[文章在线阅读体验更好，点这里](http://www.minode.club) 
 
 
 
