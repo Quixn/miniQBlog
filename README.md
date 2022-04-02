@@ -14,7 +14,7 @@
 
 **支持一下**
 - 搜索公众号 **```小Q同学```** 或者 **```扫描下方二维码```** 进行关注
-- [Github链接在此, 欢迎点个 Start](https://github.com/koala-coding/goodBlog)
+- [Github链接在此, 欢迎点个 Start](https://github.com/Quixn/miniQBlog)
 - 将好文章分享给您身边更多的小伙伴
 
 
