@@ -1,11 +1,5 @@
-<!--
- * @Author: your name
- * @Date: 2022-03-25 16:13:42
- * @LastEditTime: 2022-04-01 17:25:33
- * @LastEditors: Please set LastEditors
- * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- * @FilePath: \miniQBlog\README.md
--->
+
+
 ## 【小Q同学】全栈开发
 
 [<img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-7k-42b983.svg">](https://juejin.cn/user/814069913494638)
