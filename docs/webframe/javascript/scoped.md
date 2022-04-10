@@ -107,7 +107,7 @@ console.log('外部:'+thing)
 - 任何一对花括号`｛...｝`中的语句集都属于一个块, 在es6之前，在块语句中定义的变量将保留在它已经存在的作用域中：
 
 ```javascript
-var name = '小Q同学';
+var name = '小Q全栈指南';
 for(var i=0; i<5; i++){
     console.log(i)
 }
@@ -155,22 +155,22 @@ console在输出的时候，tmp变量仅仅申明了但未定义。所以输出u
 var name = 'koloa';
 console.log(name); // koala
 if(true){
-    var name = '小Q同学';
-    console.log(name); // 小Q同学
+    var name = '小Q全栈指南';
+    console.log(name); // 小Q全栈指南
 }
-console.log(name); // 小Q同学
+console.log(name); // 小Q全栈指南
 
 ```
- 虽然看起来里面name申明了两次，但上面说了，js的var变量只有全局作用域和函数作用域两种，且申明会被提升，因此实际上name只会在最顶上开始的地方申明一次，`var name='`小Q同学'的申明会被忽略，仅用于赋值。也就是说上面的代码实际上跟下面是一致的。
+ 虽然看起来里面name申明了两次，但上面说了，js的var变量只有全局作用域和函数作用域两种，且申明会被提升，因此实际上name只会在最顶上开始的地方申明一次，`var name='`小Q全栈指南'的申明会被忽略，仅用于赋值。也就是说上面的代码实际上跟下面是一致的。
 ```javascript
 // var
 var name = 'koloa';
     console.log(name); // koala
 if(true){
-    name = '小Q同学';
-    console.log(name); // 小Q同学
+    name = '小Q全栈指南';
+    console.log(name); // 小Q全栈指南
 }
-console.log(name); // 小Q同学
+console.log(name); // 小Q全栈指南
 ```
 ##### 变量和函数同时出现的提升
 如果有函数和变量同时声明了，会出现什么情况呢？看下面但代码
@@ -237,14 +237,14 @@ ES6的`let`和`const`不允许反复声明，与`var`不同
 // var
 function test(){
     var name = 'koloa';
-    var name = '小Q同学';
-    console.log(name); // 小Q同学
+    var name = '小Q全栈指南';
+    console.log(name); // 小Q全栈指南
 }
 
 // let || const
 function test2(){
     var name ='koloa';
-    let name= '小Q同学'; 
+    let name= '小Q全栈指南'; 
     // Uncaught SyntaxError: Identifier 'count' has already been declared
 }
 ```

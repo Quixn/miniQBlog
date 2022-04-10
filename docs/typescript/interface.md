@@ -118,7 +118,7 @@ export interface IGoodsQuery extends Query {
 ```
 好的，说了他的几个好处之后，我们开始学习interface知识吧！还有很多优点哦！
 
-作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q同学】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
+作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q全栈指南】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
 
 ## 接口的基础篇
 ### 接口的定义
@@ -412,7 +412,7 @@ export type GoodResult = QueryResult<Good>;
 
 ```
 ## 总结
-`TypeScript` 还是挺香的，预告一篇明天的发文吧，`TypeScript`强大的类型别名。今天就分享这么多，如果对分享的内容感兴趣，可以关注公众号「小Q同学」，加我微信(coder_qi)，拉你进技术群，长期交流学习。
+`TypeScript` 还是挺香的，预告一篇明天的发文吧，`TypeScript`强大的类型别名。今天就分享这么多，如果对分享的内容感兴趣，可以关注公众号「小Q全栈指南」，加我微信(coder_qi)，拉你进技术群，长期交流学习。
 
 
 ## 参考文章
@@ -430,5 +430,5 @@ http://cw.hubwiz.com/card/c/55b724ab3ad79a1b05dcc26c/1/5/4/
 
 ### 关注我
 - 欢迎加我微信(coder_qi)，拉你进技术群，长期交流学习...
-- 欢迎关注「小Q同学」,一个用心帮助你成长的公众号...
+- 欢迎关注「小Q全栈指南」,一个用心帮助你成长的公众号...
 ![](https://user-gold-cdn.xitu.io/2019/10/29/16e166ee15647127?w=900&h=500&f=png&s=105652)

@@ -15,7 +15,7 @@ tags:
 - 之前封装了一个 RxJava 的开源网络请求框架，也是基于发布-订阅模式，语言都是相通的，挺有趣。表情符号
 - Events 模块是我公众号 Node.js 进阶路线的一部分
 
-作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q同学】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
+作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q全栈指南】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
 
 ## 面试会问
 > - 说一下 Node.js 哪里应用到了发布/订阅模式
@@ -35,7 +35,7 @@ tags:
 生活中就像是去报社订报纸，你喜欢读什么报就去报社去交钱订阅，当发布了新报纸的时候，报社会向所有订阅了报纸的每一个人发送一份，订阅者就可以接收到。
 
 #### 你订阅了我的公众号
-我这个微信公号作者是发布者，您这些微信用户是订阅者「我发送一篇文章的时候，关注了【小Q同学】的订阅者们都可以收到文章。
+我这个微信公号作者是发布者，您这些微信用户是订阅者「我发送一篇文章的时候，关注了【小Q全栈指南】的订阅者们都可以收到文章。
 
 ### 实例的代码实现与分析
 以大家`订阅公众号`为例子，看看`发布/订阅模式`如何实现的。(以订阅报纸作为例子的原因，可以增加一个`type`参数，用于区分订阅不同类型的公众号，如有的人订阅的是前端公众号，有的人订阅的是 Node.js 公众号，使用此属性来标记。这样和接下来要讲的 EventEmitter 源码更相符，另一个原因是这样你只要打开一个订阅号文章是不是就想到了发布-订阅者模式呢。)
@@ -74,7 +74,7 @@ let officeAccounts ={
 ```
 以上就是一个最简单的观察者模式的实现，可以看到代码非常的简单，核心原理就是将订阅的方法按分类存在一个数组中，当发布时取出执行即可
 
-接下里看小明订阅【小Q同学】文章的代码：
+接下里看小明订阅【小Q全栈指南】文章的代码：
 
 ```javascript
 let xiaoming = {
@@ -89,21 +89,21 @@ let xiaogang = {
     }
 };
 
-officeAccounts.subscribe('小Q同学',xiaoming.readArticle);
-officeAccounts.subscribe('小Q同学',xiaogang.readArticle);
+officeAccounts.subscribe('小Q全栈指南',xiaoming.readArticle);
+officeAccounts.subscribe('小Q全栈指南',xiaogang.readArticle);
 officeAccounts.subscribe('某公众号',xiaoming.readArticle);
 
 officeAccounts.unSubscribe('某公众号',xiaoming.readArticle);
 
-officeAccounts.publish('小Q同学','小Q同学的Node文章');
+officeAccounts.publish('小Q全栈指南','小Q全栈指南的Node文章');
 officeAccounts.publish('某公众号','某公众号的文章');
 
 ```
 运行结果:
 
 ```javascript
-小明收到的 小Q同学的Node文章
-小刚收到的 小Q同学的Node文章
+小明收到的 小Q全栈指南的Node文章
+小刚收到的 小Q全栈指南的Node文章
 ```
 - 结论
 

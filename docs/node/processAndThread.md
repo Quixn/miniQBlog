@@ -35,7 +35,7 @@ const http = require('http');
 
 const server = http.createServer();
 server.listen(3000,()=>{
-    process.title='小Q同学测试进程';
+    process.title='小Q全栈指南测试进程';
     console.log('进程id',process.pid)
 })
 ```
@@ -495,7 +495,7 @@ const http = require('http');
 
 const server = http.createServer();
 server.listen(3000,()=>{
-    process.title='小Q同学测试进程';
+    process.title='小Q全栈指南测试进程';
     console.log('进程id',process.pid)
 })
 ```

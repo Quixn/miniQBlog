@@ -16,7 +16,7 @@ tags:
 - 原因一：该文章系列不管你是前端开发者，还是后端开发者在面试中经常会被问到一个问题 `“从浏览器输入url到页面显示经历了哪些？”` 一个`非常`常见的问题，看了该系列绝对能惊到面试官，可能就因为这一道面试题就收了你呢！嘿嘿。
 - 原因二：自己主要是后端方向，该系列文章也是为了学习记录，方便以后查阅。极客时间李兵老师也开了这个专栏，看后还有几个疑问的点，自己查询资料学习整理一遍。
 
-作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q同学】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
+作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q全栈指南】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
 
 ## 什么是DOM
 DOM是Document Object Model（文档对象模型）的缩写
@@ -50,7 +50,7 @@ W3C 那个概念我好像还没有把它全部翻译完，“**允许程序和�
 ```html
 <html>
 <body>
-    <div>小Q同学</div>
+    <div>小Q全栈指南</div>
 </body>
 </html>
 ```
@@ -75,7 +75,7 @@ W3C 那个概念我好像还没有把它全部翻译完，“**允许程序和�
     <div>
     koala
         <p>
-        小Q同学
+        小Q全栈指南
         </P>
     </div>
 </body>
@@ -143,7 +143,7 @@ CSSOM 为何具有树结构？为页面上的任何对象计算最后一组样�
             <div>1</div>
             <script>
                 let div1 = document.getElementsByTagName('div')[0]
-                div1.innerText = '小Q同学'
+                div1.innerText = '小Q全栈指南'
 
                 let div2 = document.getElementsByTagName('div')[1]
                 div2.innerText = 'kaola'
@@ -153,7 +153,7 @@ CSSOM 为何具有树结构？为页面上的任何对象计算最后一组样�
     </html>
    ```
    显示结果为两行：
-   第一行结果是小Q同学
+   第一行结果是小Q全栈指南
    第二行记过是test
    因为在执行第三行和第四行 script 脚本的时候，DOM树中还没有生成第二个 div对应的dom节点。
 - 情况2：当页面中同时有Html JavaScript CSS ，而且都非外部引入

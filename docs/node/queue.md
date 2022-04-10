@@ -14,7 +14,7 @@ tags:
 
 ![](http://img.xiaogangzai.cn/queue_01.jpg)
 
-作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q同学】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
+作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q全栈指南】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
 
 
 ##  什么是消息队列
@@ -508,5 +508,5 @@ https://mp.weixin.qq.com/s/wTkwJXlNr5CaI7uRntJ42A
 ](https://juejin.im/post/5d3f1664e51d4561a34618c1)
 ### 关注我
 - 欢迎加我微信(coder_qi)，拉你进技术群，长期交流学习...
-- 欢迎关注「小Q同学」,一个用心帮助你成长的公众号...
+- 欢迎关注「小Q全栈指南」,一个用心帮助你成长的公众号...
 ![](http://img.xiaogangzai.cn/leading.png)

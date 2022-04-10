@@ -178,7 +178,7 @@ bar()              // 浏览器中输出: "hello"
 ```javascript
 var name = 'koala';
 var person = {
-    name: '小Q同学',
+    name: '小Q全栈指南',
     sayHi: sayHi
 }
 function sayHi(){
@@ -202,12 +202,12 @@ setTimeout(function(){
 var a = 'koala'
 
 var obj = {
-    a: '小Q同学',
+    a: '小Q全栈指南',
     foo: function() {
         console.log(this.a)
     }
 }
-obj.foo()       // 浏览器中输出: "小Q同学"
+obj.foo()       // 浏览器中输出: "小Q全栈指南"
 ```
 foo 方法是作为对象的属性调用的，那么此时 foo 方法执行时，this 指向 obj 对象。
 
@@ -221,7 +221,7 @@ function sayHi(){
     console.log('Hello,', this.name);
 }
 var person2 = {
-    name: '小Q同学',
+    name: '小Q全栈指南',
     sayHi: sayHi
 }
 var person1 = {
@@ -230,7 +230,7 @@ var person1 = {
 }
 person1.friend.sayHi();
 
-// 输出结果为 Hello, 小Q同学
+// 输出结果为 Hello, 小Q全栈指南
 ```
 看完这个例子，是不是也就懂了隐式调用的这种情况。
 
@@ -265,7 +265,7 @@ console.log(person.work); // '测试'
 
 例子:
 ```javascript
-var number = 1, string = '小Q同学';
+var number = 1, string = '小Q全栈指南';
 function getThisType () {
     var number = 3;
     console.log('this指向内容',this);
@@ -276,7 +276,7 @@ getThisType.apply(string);
 // 输出结果
 // this指向内容 [Number: 1]
 // object
-// this指向内容 [String: '小Q同学']
+// this指向内容 [String: '小Q全栈指南']
 // object
 ```
 #### bind函数
@@ -289,14 +289,14 @@ func.bind(thisArg[, arg1[, arg2[, ...]]])    // bind 用法
 例子:
 ```javascript
 var publicAccounts = {
-    name: '小Q同学',
+    name: '小Q全栈指南',
     author: 'koala',
     subscribe: function(subscriber) {
         console.log(subscriber + this.name)
     }
 }
 
-publicAccounts.subscribe('小红')   // 输出结果: "小红 小Q同学"
+publicAccounts.subscribe('小红')   // 输出结果: "小红 小Q全栈指南"
 
 var subscribe1 = publicAccounts.subscribe.bind({ name: 'Node成长指北', author: '考拉' }, '小明 ')
 subscribe1()       // 输出结果: "小明 Node成长指北"
@@ -404,7 +404,7 @@ console.loh(fun.prototype); // undefined
 let a = 'kaola'
 
 let obj = {
-    a: '小Q同学',
+    a: '小Q全栈指南',
     foo: () => {
         console.log(this.a)
     }
@@ -419,19 +419,19 @@ obj.foo()             // 输出结果: "koala"
 代码例子如下：
 ```javascript
 (function(){
-    console.log('小Q同学')
+    console.log('小Q全栈指南')
 })()
 ```
 或者
 ```javascript
 (function(){
-    console.log('小Q同学')
+    console.log('小Q全栈指南')
 }())
 ```
 但是如果使用了箭头函数简化一下就只能使用第一种情况了。使用第二种情况简化会报错。
 ```javascript
 (() => {
-    console.log('小Q同学')
+    console.log('小Q全栈指南')
 })()
 ```
 

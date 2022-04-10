@@ -13,7 +13,7 @@ Node.js 做密集型运算，或者所操作的数组、对象本身较大时，
     - 2.2 内存溢出的原因
 3. 如何解决内存溢出问题
 
-> 作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q同学】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
+> 作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q全栈指南】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
 
 ## 1.内存溢出问题
 下面是我们在Node.js应用中经常遇到的两类内存溢出问题：
@@ -26,7 +26,7 @@ for (var i = 0; i < 10000000; i++) {
     ((i) => {
         var site = {};
         site.name = 'koala';
-        site.domain = '小Q同学';
+        site.domain = '小Q全栈指南';
         // 这里是一个保存或更新等操作
 
         setTimeout(()=>{
@@ -43,7 +43,7 @@ var sites = [];
 for (var x=0;x<5000;x++){
     var site=[];
     for (var y=0;y<5000;y++){
-        site = [y, 'koala', '小Q同学'];
+        site = [y, 'koala', '小Q全栈指南'];
         sites.push(site);
     }
 }
@@ -87,7 +87,7 @@ async function dbFuc() {
 for (let i = 0; i < 10000000; i++) {
     var site = {};
     site.name = 'koala';
-    site.domain = '小Q同学';
+    site.domain = '小Q全栈指南';
     // 这里是一个保存或更新等操作
 
     await  console.log(i, site);
@@ -133,5 +133,5 @@ Node.js程序所使用的内存分为两类：
 ](https://juejin.im/post/5d3f1664e51d4561a34618c1)
 ## 关注我
 - 欢迎加我微信(coder_qi)，拉你进技术群，长期交流学习...
-- 欢迎关注「小Q同学」,一个用心帮助你成长的公众号...
+- 欢迎关注「小Q全栈指南」,一个用心帮助你成长的公众号...
 ![](http://img.xiaogangzai.cn/leading.png)

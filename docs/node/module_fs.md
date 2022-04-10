@@ -121,12 +121,12 @@ const filePath = path.join(__dirname,'koalaFile.txt')
 const filePath1 = path.join(__dirname,'koalaFile1.txt')
 // -- 异步读取文件
 fs.readFile(filePath,'utf8',function(err,data){
-    console.log(data);// 小Q同学
+    console.log(data);// 小Q全栈指南
 });
 
 // -- 同步读取文件
 const fileResult=fs.readFileSync(filePath,'utf8');
-console.log(fileResult);// 小Q同学
+console.log(fileResult);// 小Q全栈指南
 ```
 #### 文件写入fs.writeFile
 
@@ -150,7 +150,7 @@ demo：
 ```javascript
 // 写入文件内容（如果文件不存在会创建一个文件）
 // 写入时会先清空文件
-fs.writeFile(filePath, '写入成功：小Q同学', function(err) {
+fs.writeFile(filePath, '写入成功：小Q全栈指南', function(err) {
     if (err) {
         throw err;
     }
@@ -160,7 +160,7 @@ fs.writeFile(filePath, '写入成功：小Q同学', function(err) {
 });
 
 // 通过文件写入并且利用flag也可以实现文件追加
-fs.writeFile(filePath, '小Q同学追加的数据', {'flag':'a'},function(err) {
+fs.writeFile(filePath, '小Q全栈指南追加的数据', {'flag':'a'},function(err) {
 	    if (err) {
 	        throw err;
 	    }
@@ -186,7 +186,7 @@ demo：
 ```javascript
 // -- 异步另一种文件追加操作(非覆盖方式)
 // 写入文件内容（如果文件不存在会创建一个文件）
-fs.appendFile(filePath, '新数据小Q同学456', function(err) {
+fs.appendFile(filePath, '新数据小Q全栈指南456', function(err) {
     if (err) {
         throw err;
     }
@@ -196,7 +196,7 @@ fs.appendFile(filePath, '新数据小Q同学456', function(err) {
 });
 // -- 同步另一种文件追加操作(非覆盖方式)
 
-fs.appendFileSync(filePath, '同步追加一条新数据小Q同学789');
+fs.appendFileSync(filePath, '同步追加一条新数据小Q全栈指南789');
 ```
 #### 拷贝文件-copyFile
 ```javascript
@@ -211,7 +211,7 @@ demo：
 fs.copyFileSync(filePath, filePath1);
 let data = fs.readFileSync(filePath1, 'utf8');
 
-console.log(data); // 小Q同学
+console.log(data); // 小Q全栈指南
 ```
 
 #### 删除文件-unlink
@@ -504,7 +504,7 @@ copy('6.txt', '7.txt', BUFFER_SIZE, () => {
 
 > 在 NodeJS 中进行文件操作，多次读取和写入时，一般一次读取数据大小为 64k，写入数据大小为 16k。
 
-大家好，我是koala，在做一个一个Node.js高级进阶路线，今天就分享这么多，如果对分享的内容感兴趣，可以关注公众号「小Q同学」，或者加入技术交流群，大家一起讨论。
+大家好，我是koala，在做一个一个Node.js高级进阶路线，今天就分享这么多，如果对分享的内容感兴趣，可以关注公众号「小Q全栈指南」，或者加入技术交流群，大家一起讨论。
 
 加入我们一起学习吧！
 ![](http://img.xiaogangzai.cn/leading.png)

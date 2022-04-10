@@ -51,19 +51,19 @@ require()加载模块的时候我们来看一段实例代码
 
 ```
 //koala.js
-let a = '小Q同学';
+let a = '小Q全栈指南';
 
 console.log(module.exports); //能打印出结果为：{}
 console.log(exports); //能打印出结果为：{}
 
-exports.a = '小Q同学哦哦'; //这里辛苦劳作帮 module.exports 的内容给改成 {a : '小Q同学哦哦'}
+exports.a = '小Q全栈指南哦哦'; //这里辛苦劳作帮 module.exports 的内容给改成 {a : '小Q全栈指南哦哦'}
 
 exports = '指向其他内存区'; //这里把exports的指向指走
 
 //test.js
 
 const a = require('/koala');
-console.log(a) // 打印为 {a : '小Q同学哦哦'}
+console.log(a) // 打印为 {a : '小Q全栈指南哦哦'}
 ```
 看上面代码的打印结果，应该能得到这样的结论：
 > require导出的内容是module.exports的指向的内存块内容，并不是exports的。

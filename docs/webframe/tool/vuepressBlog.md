@@ -138,7 +138,7 @@ actionLink: /node/
 features:
 - title: day day up
   details: 记录每一天的进步, 一分耕耘，一分收获.
-- title: 小Q同学
+- title: 小Q全栈指南
   details: 专注 Node.js 技术栈分享，从 前端 到 Node.js 再到 后端数据库，祝您成为优秀的高级 Node.js 全栈工程师
 - title: koala
   details: 一个有趣的且乐于分享的人。座右铭：今天未完成的，明天更不会完成。
@@ -354,14 +354,14 @@ manifest.json 文件
   "name": "koala_blog",
   "short_name": "blog",
   "version": "1.0.0",
-  "description": "小Q同学博主, koala的博客",
+  "description": "小Q全栈指南博主, koala的博客",
   "manifest_version": 2
 }
 ```
 
 
 ### 配置评论
-由于之前有小伙伴说过,『小Q同学』公众号上不能评论，所有这次我在博客中增加了评论功能，刚开始本来打算使用gitTalk, 但是我的博客采用的是部署到自己的服务器, 并没有部署成 GitHub Pages, 所有我使用的是`valine `, 它除了评论功能还可以统计阅读量, 请大家看:
+由于之前有小伙伴说过,『小Q全栈指南』公众号上不能评论，所有这次我在博客中增加了评论功能，刚开始本来打算使用gitTalk, 但是我的博客采用的是部署到自己的服务器, 并没有部署成 GitHub Pages, 所有我使用的是`valine `, 它除了评论功能还可以统计阅读量, 请大家看:
 
 ![](http://img.xiaogangzai.cn/vuepressBlog_20200718_7.jpg)
 
@@ -558,11 +558,11 @@ cd -
 
 
 ## 项目地址
-我的网站 [小Q同学](http://www.inode.club) 就是这样搭建出来的!
+我的网站 [小Q全栈指南](http://www.inode.club) 就是这样搭建出来的!
 
 本文章实现的内容都已经上传到github, 如果不想一步步进行配置的, 可以直接下载下来使用,就不用重复造轮子啦!
 
-> 需要博客源码的小伙伴可以直接「小Q同学」公众后台回复【博客】领取，或者直接联系我。
+> 需要博客源码的小伙伴可以直接「小Q全栈指南」公众后台回复【博客】领取，或者直接联系我。
 
 参考文章
 https://juejin.im/post/5c94ddf35188252d65344cfe

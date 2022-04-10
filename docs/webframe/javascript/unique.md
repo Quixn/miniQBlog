@@ -11,7 +11,7 @@ tags:
 3. 实际开发中我们应该选择哪种方式数组去重，本文告诉你。
 4. 你以为的不一定你以为，面试官不只是让你去重一个数组，他想知道的有点多，包括你的思想。
 
-> 作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q同学】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
+> 作者简介：koala，专注完整的 Node.js 技术栈分享，从 JavaScript 到 Node.js,再到后端数据库，祝您成为优秀的高级 Node.js 工程师。【小Q全栈指南】作者，Github 博客开源项目 https://github.com/koala-coding/goodBlog
 
 ## 当面试官问到时怎么回答？
 ### 首先:我知道多少种去重方式
@@ -241,7 +241,7 @@ String.prototype.indexOf = function(s) {
 
 ### 关注我
 - 欢迎加我微信【coder_qi】，拉你进技术群，长期交流学习...
-- 欢迎关注「小Q同学」,一个用心帮助你成长的公众号...
+- 欢迎关注「小Q全栈指南」,一个用心帮助你成长的公众号...
 ![](https://user-gold-cdn.xitu.io/2019/10/29/16e166ee15647127?w=900&h=500&f=png&s=105652)
 
 ### Node系列原创文章

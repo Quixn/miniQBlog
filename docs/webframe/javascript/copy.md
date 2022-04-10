@@ -8,7 +8,7 @@ tags:
 [[toc]]
 ## 前言
 为什么写拷贝这篇文章？同事有一天提到了拷贝，他说赋值就是一种浅拷贝方式，另一个同事说赋值和浅拷贝并不相同。
-我也有些疑惑，于是我去MDN搜一下拷贝相关内容，发现并没有关于拷贝的实质概念，没有办法只能通过实践了，同时去看一些前辈们的文章总结了这篇关于拷贝的内容,本文也属于公众号【小Q同学】学习路线中【JS必知必会】内容。
+我也有些疑惑，于是我去MDN搜一下拷贝相关内容，发现并没有关于拷贝的实质概念，没有办法只能通过实践了，同时去看一些前辈们的文章总结了这篇关于拷贝的内容,本文也属于公众号【小Q全栈指南】学习路线中【JS必知必会】内容。
 
 ## 数据类型与堆栈的关系
 
@@ -51,7 +51,7 @@ function A() {
 ```javascript
 let a ='koala';
 let b = a;
-b='小Q同学'；
+b='小Q全栈指南'；
 console.log(a); // koala
 ```
 基本数据类型复制配图：
@@ -66,8 +66,8 @@ console.log(a); // koala
 ```javascript
 let a = {x:'kaola', y:'kaola1'}
 let b = a;
-b.x = '小Q同学';
-console.log(a.x); // 小Q同学
+b.x = '小Q全栈指南';
+console.log(a.x); // 小Q全栈指南
 ```
 引用数据类型复制配图：
 
@@ -118,13 +118,13 @@ ES6中拷贝对象的方法，接受的第一个参数是`拷贝的目标target`
 - 举例说明：
 ```javascript
 let target = {};
-let source = {a:'koala',b:{name:'小Q同学'}};
+let source = {a:'koala',b:{name:'小Q全栈指南'}};
 Object.assign(target ,source);
-console.log(target); // { a: 'koala', b: { name: '小Q同学' } }
+console.log(target); // { a: 'koala', b: { name: '小Q全栈指南' } }
 source.a = 'smallKoala';
-source.b.name = '小Q同学哦'
-console.log(source); // { a: 'smallKoala', b: { name: '小Q同学哦' } }
-console.log(target); // { a: 'koala', b: { name: '小Q同学哦' } }
+source.b.name = '小Q全栈指南哦'
+console.log(source); // { a: 'smallKoala', b: { name: '小Q全栈指南哦' } }
+console.log(target); // { a: 'koala', b: { name: '小Q全栈指南哦' } }
 ```
 从打印结果可以看出，`Object.assign`是一个浅拷贝,它只是在根属性(对象的第一层级)创建了一个新的对象，但是对于属性的值是对象的话只会拷贝一份相同的内存地址。
 
@@ -302,7 +302,7 @@ console.log(obj1.b.f === obj2.b.f);
 
 ![](http://img.xiaogangzai.cn/article_16.jpg)
 
-今天就分享这么多，如果对分享的内容感兴趣，可以关注公众号「小Q同学」，或者加入技术交流群，大家一起讨论。
+今天就分享这么多，如果对分享的内容感兴趣，可以关注公众号「小Q全栈指南」，或者加入技术交流群，大家一起讨论。
 
 进阶技术路线
 

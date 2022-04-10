@@ -570,7 +570,7 @@ export default new Vuex.Store({
       :age="18"
       :gender="女"
       :height="158"
-      title="小Q同学"
+      title="小Q全栈指南"
     ></child-com1>
   </div>
 </template>
@@ -612,7 +612,7 @@ export default {
   },
   created() {
     console.log(this.$attrs);
-     // { "age": "18", "gender": "女", "height": "158", "title": "小Q同学" }
+     // { "age": "18", "gender": "女", "height": "158", "title": "小Q全栈指南" }
   }
 };
 </script>
@@ -636,7 +636,7 @@ export default {
   },
   created() {
     console.log(this.$attrs); 
-    // { "name": "zhang", "gender": "女", "height": "158", "title": "小Q同学" }
+    // { "name": "zhang", "gender": "女", "height": "158", "title": "小Q全栈指南" }
   }
 };
 </script>
@@ -650,7 +650,7 @@ export default {
 - 跨级通信:  `eventBus`；Vuex；`provide` / `inject` 、`$attrs` / `$listeners`
 
 
-今天就分享这么多，如果对分享的内容感兴趣，可以关注公众号「小Q同学」，或者加入技术交流群，大家一起讨论。
+今天就分享这么多，如果对分享的内容感兴趣，可以关注公众号「小Q全栈指南」，或者加入技术交流群，大家一起讨论。
 
 ![](http://img.xiaogangzai.cn/way.jpg)
 加入我们一起学习吧！

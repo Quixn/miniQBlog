@@ -46,7 +46,7 @@ W3C 那个概念我好像还没有把它全部翻译完，“**允许程序和�
 ```html
 <html>
 <body>
-    <div>小Q同学</div>
+    <div>小Q全栈指南</div>
 </body>
 </html>
 ```
@@ -68,7 +68,7 @@ W3C 那个概念我好像还没有把它全部翻译完，“**允许程序和�
     <div>
     koala
         <p>
-        小Q同学
+        小Q全栈指南
         </P>
     </div>
 </body>
@@ -143,7 +143,7 @@ CSSOM 为何具有树结构？为页面上的任何对象计算最后一组样�
             <div>1</div>
             <script>
                 let div1 = document.getElementsByTagName('div')[0]
-                div1.innerText = '小Q同学'
+                div1.innerText = '小Q全栈指南'
 
                 let div2 = document.getElementsByTagName('div')[1]
                 div2.innerText = 'kaola'
@@ -153,7 +153,7 @@ CSSOM 为何具有树结构？为页面上的任何对象计算最后一组样�
     </html>
    ```
    显示结果为两行：
-   第一行结果是小Q同学
+   第一行结果是小Q全栈指南
    第二行记过是test
    因为在执行第三行和第四行 script 脚本的时候，DOM树中还没有生成第二个 div对应的dom节点。
 - 情况2：当页面中同时有Html JavaScript CSS ，而且都非外部引入
