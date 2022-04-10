@@ -69,7 +69,7 @@
   
 
 ### 技术栈预览图
-![](http://img.xiaogangzai.cn/way.jpg)
+![](https://cdn.jsdelivr.net/gh/Quixn/image-hosting@main/src/way.jpg)
 
 ### 加入我们
 ![](http://img.xiaogangzai.cn/follow.gif)
